@@ -7,4 +7,4 @@ def quicksort(array):
         biggers = [i for i in array[1:] if i > pivot]
         return quicksort(minors) + [pivot] + quicksort(biggers)
 
-print(quicksort([10, 5, 2, 3]))
+print(quicksort([10, 5, 2, 99, 3]))
